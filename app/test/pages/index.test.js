@@ -10,6 +10,6 @@ const wrapper = mount(Index, componentData);
 
 describe("index.vue", () => {
   it("render html", () => {
-    expect(wrapper.find('[data-test="title"]').text()).toBe("Hello Nuxt !!");
+    expect(wrapper.find('[data-test="title"]').text()).toBe("Welcome, User...");
   });
 });
