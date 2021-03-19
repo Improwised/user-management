@@ -1,0 +1,552 @@
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+
+html,
+body {
+  color: #5a6169;
+  font-weight: 300;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* ====== google material icon style - start ====== */
+
+/* Rules for sizing the icon. */
+.material-icons.md-16 {
+  font-size: 16px;
+}
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light {
+  color: rgba(255, 255, 255, 1);
+}
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/* ====== google material icon style - end ====== */
+
+.pos-rel {
+  position: relative;
+}
+
+.pos-stk-top {
+  top: 0;
+  position: sticky;
+}
+
+.pos-stk-bottom {
+  bottom: 0;
+  position: sticky;
+}
+
+.bb-1 {
+  border-bottom: 1px solid #e1e5eb;
+}
+
+.bt-1 {
+  border-top: 1px solid #e1e5eb;
+}
+
+.br-1 {
+  border-right: 1px solid #e1e5eb;
+}
+
+.bl-1 {
+  border-left: 1px solid #e1e5eb;
+}
+
+.pad-1 {
+  padding: 0.5rem 1rem;
+}
+
+.pad-2 {
+  padding: 1rem;
+}
+
+.padx-2 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.pad-item {
+  padding: 0.5rem;
+}
+
+.mar-1 {
+  margin: 0.5rem 1rem;
+}
+
+.bg-light {
+  background-color: #fbfbfb !important;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.fs-1 {
+  font-size: 0.9rem;
+}
+
+.fs-2 {
+  font-size: 0.875rem;
+}
+
+/*.br-1 {
+  border-radius: 0.625rem;
+}*/
+
+.ws-nw {
+  white-space: nowrap;
+}
+
+.wb-ba {
+  word-break: break-all;
+}
+
+.dfaic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dfaisb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.w-33 {
+  width: 33%;
+}
+
+/* ====== custom card style - start ====== */
+.custom-card {
+  border: none;
+  background-color: #fff;
+  border-radius: 0.625rem;
+  box-shadow: 0 2px 0 rgba(90, 97, 105, 0.11), 0 4px 8px rgba(90, 97, 105, 0.12),
+    0 10px 10px rgba(90, 97, 105, 0.06), 0 7px 70px rgba(90, 97, 105, 0.1);
+}
+
+.custom-card .custom-header {
+  box-shadow: none;
+  padding: 1rem 1rem;
+  border-radius: 0.625rem 0.625rem 0 0;
+  background-color: white;
+}
+
+.custom-card > .custom-body {
+  border-radius: 0.625rem 0.625rem 0 0;
+}
+
+.custom-card .custom-header + .custom-body {
+  border-radius: 0 0;
+}
+
+.custom-card .custom-footer {
+  box-shadow: none;
+  border-radius: 0 0 0.625rem 0.625rem;
+  padding: 1rem 1rem;
+  background-color: white;
+}
+
+/* ====== custom card style - end ====== */
+
+
+/* ====== custom table style - start ====== */
+
+.custom-table.table {
+  color: inherit;
+}
+
+.custom-table.table thead th {
+  border: 0;
+  font-size: 0.9rem;
+  vertical-align: middle;
+  text-transform: capitalize;
+}
+
+.custom-table.table tbody td {
+  font-size: 0.9rem;
+  vertical-align: middle;
+}
+
+/* ====== custom table style - start ====== */
+
+.btn-brand-primary {
+  color: white;
+  border-color: #09639D;
+  background-color: #09639D;
+}
+
+.btn-brand-primary:hover {
+  color: white;
+}
+
+.btn-brand-primary:focus {
+  color: white;
+  box-shadow: 0 0 0 0.2rem rgba(9, 99, 157, 0.25);
+}
+
+/**/
+
+.btn-link-danger {
+  color: #dc3545;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.btn-link-danger:hover {
+  color: #dc3545;
+}
+
+.btn-link-danger:focus {
+  color: white;
+  color: #dc3545;
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+/**/
+
+.btn-tab-active {
+  color: #09639D;
+  outline: none;
+  font-weight: bold;
+  cursor: default !important;
+}
+
+.btn-tab-active:hover {
+  color: #09639D;
+  outline: none;
+}
+
+.btn-tab-active:focus {
+  color: #09639D;
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0);
+}
+
+/**/
+
+.btn-tab-inactive {
+  outline: none;
+  color: #909090;
+}
+
+.btn-tab-inactive:hover {
+  outline: none;
+  color: #09639D;
+  font-weight: bold;
+}
+
+.btn-tab-inactive:focus {
+  outline: none;
+  color: #09639D;
+  font-weight: bold;
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0);
+}
+
+/**/
+
+a {
+  color: #09639D;
+}
+
+.btn-link, .brand-color, .text-brand-color {
+  color: #09639D;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+.br1 {
+  border-radius: 0.625rem !important;
+}
+
+.br0 {
+  border-radius: 0;
+}
+
+.bs-1 {
+  box-shadow: 0 2px 0 rgba(90, 97, 105, 0.11), 0 4px 8px rgba(90, 97, 105, 0.12),
+    0 10px 10px rgba(90, 97, 105, 0.06), 0 7px 70px rgba(90, 97, 105, 0.1);
+}
+
+.cb {
+  color: #09639D;
+}
+
+.sticky-left {
+  left: 0;
+  position: sticky;
+}
+
+.breadcrumb-style {
+  padding: 1rem 1.5rem;
+  background-color: transparent;
+  margin: -1.5rem -1.5rem 0 -1.5rem;
+}
+
+.text-cap {
+  text-transform: capitalize;
+}
+
+.btn, .form-control, .custom-select {
+  border-radius: 0.625rem;
+}
+
+.cp {
+  cursor: pointer;
+}
+
+/**/
+
+.bg-light-orange {
+  color: black;
+  background-color: #ffb36780;
+}
+
+.badge-light-orange {
+  color: black;
+  background-color: #ffb36780;
+}
+
+/**/
+
+.bg-dark-orange {
+  color: black;
+  background-color: #ffb367;
+}
+
+.badge-dark-orange {
+  color: black;
+  background-color: #ffb367;
+}
+
+/**/
+
+.bg-light-blue {
+  color: black;
+  background-color: #007bff33;
+}
+
+.badge-light-blue {
+  color: black;
+  background-color: #007bff33;
+}
+
+/**/
+
+.bg-darker-blue {
+  color: white;
+  background-color: #005ec2;
+}
+
+.badge-darker-blue {
+  color: white;
+  background-color: #005ec2;
+}
+
+/**/
+.copy-to-clipboard {
+  cursor: pointer;
+  position: relative;
+}
+
+.copy-to-clipboard:hover {
+  background-color: #0000000f;
+}
+
+.copy-to-clipboard:hover::after {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  content: "Click anywhere to copy";
+  margin: 5px;
+  color: white;
+  font-size: 14px;
+  padding: 5px 10px;
+  margin-top: -17.5px;
+  margin-left: -85.155px;
+  border: 2px solid white;
+  background-color: black;
+  border-radius: 0.625rem;
+}
+
+.copy-to-clipboard.clipboard-center:hover::after {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin-top: -17.5px;
+}
+
+/**/
+.pdb {
+  margin-bottom: -10px;
+  margin-top: -10px;
+}
+
+/* topics stats */
+.stats {
+  background-color: white;
+  flex-grow: 1;
+}
+
+.stats-sub.stats {
+  flex-grow: 1;
+  width: 350px;
+}
+
+.stats table {
+  width: 100%;
+}
+
+.stats td {
+  padding: 0.8rem;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.stats-sub.stats td {
+  white-space: normal;
+}
+
+.stats .sValue {
+  font-weight: bold;
+}
+
+@media (min-width: 992px) {
+  #consumerModel .modal-dialog {
+    max-width: 90% !important;
+    width: 90% !important;
+  }
+}
+
+table tr th:first-child,
+table tr th:last-child {
+  border-radius: 0.625rem;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(9, 99, 157, 0.07);
+}
+
+/* credit card  */
+#number,
+#month {
+  display: flex;
+}
+
+#number iframe {
+  width: 100% !important;
+}
+
+#month iframe,
+#year iframe,
+#cvv iframe {
+  width: 100% !important;
+}
+
+.cardfront {
+  display: flex;
+  flex-flow: column;
+}
+
+.cardback {
+  display: flex;
+  flex-flow: row;
+}
+
+/* vue-tags-input */
+.vue-tags-input {
+  max-width: 100% !important;
+}
+
+.ti-input {
+  border-radius: 0.625rem;
+}
+
+.ti-tag {
+  background-color: #0069d9 !important;
+}
+
+.ti-duplicate {
+  text-decoration: line-through !important;
+  color: #e7410e !important;
+}
+
+.ti-deletion-mark {
+  background-color: #e7410e !important;
+}
+
+.ti-new-tag-input-wrapper input {
+  max-height: fit-content !important;
+}
+
+.progress-bar {
+  overflow: visible;
+  padding: 5px;
+}
+
+.lh1 {
+  line-height: 1;
+}
+
+
+.auth {
+  min-height: 100vh;
+  color: var(--primary-light);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.auth .subheading {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: var(--base-text);
+}
+
+.auth a {
+  color: var(--base-text);
+  transition: color 0.1s ease-in-out;
+}
+
+.auth a:hover {
+  color: var(--base-white);
+}
+
+.auth .divider {
+  width: 100%;
+  border-color: var(--base-main);
+  margin: 2rem 0;
+}
+
+.auth .alternative-actions {
+  display: flex;
+  justify-content: space-between;
+}
